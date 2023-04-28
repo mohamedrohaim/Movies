@@ -37,7 +37,7 @@
                                 <div class="card-body flex-md-column justify-content-between h-100" >
                                     <div>
                                         <h5 class="card-title">@movie.Title (@movie.Year)</h5>
-                                    <p class="card-text text-justify">@(movie.StoryLine.Length>500?$"{movie.StoryLine.Substring(500)}.....":movie.StoryLine)</p>
+                                    <p class="card-text text-justify">@(movie.StoryLine.Length>500?$"{movie.StoryLine.Substring(0,500)}.....":movie.StoryLine)</p>
 
                                     </div>
                                     <div class="d-flex justify-content-between">

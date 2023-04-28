@@ -6,7 +6,7 @@ namespace Movies.ViewModel
 {
     public class MovieViewModel
     {
-
+        public int Id { get; set; }
         [Required(ErrorMessage ="title must not be empty"), StringLength(250)]
         public string Title { get; set; }
 

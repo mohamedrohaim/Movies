@@ -80,7 +80,7 @@ textarea{
 
 .poster {
 min-height:236px;
-background-size:100%;
+background-size:contain;
 transition:all 0.3s ease-in-out;
 
  
