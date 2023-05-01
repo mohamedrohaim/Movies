@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Movies.Models;
+using NToastNotify;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,7 +30,13 @@ namespace Movies
                 options=>options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnections")));
 
-             
+            services.AddMvc().AddNToastNotifyToastr(new ToastrOptions(){ 
+            ProgressBar=true,
+            PositionClass=ToastPositions.BottomRight,
+            PreventDuplicates=true,
+            CloseButton=true,
+            
+            });
             services.AddControllersWithViews();
         }
 

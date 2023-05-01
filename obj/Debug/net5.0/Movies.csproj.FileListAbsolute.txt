@@ -393,3 +393,9 @@ F:\DotNetProjects\Movies\Movies\obj\Debug\net5.0\Razor\Views\Movies\Index.cshtml
 F:\DotNetProjects\Movies\Movies\bin\Debug\net5.0\libman.json
 F:\DotNetProjects\Movies\Movies\obj\Debug\net5.0\Razor\Views\Movies\Create.cshtml.g.cs
 F:\DotNetProjects\Movies\Movies\obj\Debug\net5.0\Razor\Views\Movies\Edit.cshtml.g.cs
+F:\DotNetProjects\Movies\Movies\bin\Debug\net5.0\Movies.StaticWebAssets.xml
+F:\DotNetProjects\Movies\Movies\obj\Debug\net5.0\staticwebassets\Movies.StaticWebAssets.xml
+F:\DotNetProjects\Movies\Movies\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+F:\DotNetProjects\Movies\Movies\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+F:\DotNetProjects\Movies\Movies\bin\Debug\net5.0\NToastNotify.Views.dll
+F:\DotNetProjects\Movies\Movies\bin\Debug\net5.0\NToastNotify.dll
